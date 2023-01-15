@@ -31,8 +31,8 @@ def reduce_memory_usage(df):
 
 
 @st.cache
-def get_data(finename):
-    df = pd.read_csv(finename,
+def get_data(filename):
+    df = pd.read_csv(filename,
                     sep=',',
                     low_memory=False,
                     verbose=False,
