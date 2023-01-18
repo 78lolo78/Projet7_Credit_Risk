@@ -19,12 +19,12 @@ COLOR_BR = ['indianred', 'dodgerblue']
 # Managing data import/export
 #PATH = "/OneDrive/Documents/Formation/Project_7_OC_dashboard/" # os.getcwd()+'/' # change for online app or local
 #PATH_INPUT = PATH+"input/"
-#FILENAME_TRAIN = PATH_INPUT+'application_train_sample.csv' # sample of train set for online version 25MB
-FILENAME_TRAIN = 'https://raw.githubusercontent.com/78lolo78/Projet7_Credit_Risk/main/input/application_train_sample.csv?token=GHSAT0AAAAAAB4ORQGCQWDPMSQHBATYXLVSY6EB2AQ'
-#FILENAME_TEST = PATH_INPUT+'application_test.csv'
-FILENAME_TEST = 'https://raw.githubusercontent.com/78lolo78/Projet7_Credit_Risk/main/input/application_test.csv?token=GHSAT0AAAAAAB4ORQGDU67M2NDNG2FUK6EGY6ECDEA'
-#FILENAME_MODEL = PATH+'optimized_model.sav'
-FILENAME_MODEL = 'https://github.com/78lolo78/Projet7_Credit_Risk/blob/main/optimized_model.sav'
+FILENAME_TRAIN = 'application_train_sample.csv' # sample of train set for online version 25MB
+#FILENAME_TRAIN = 'https://raw.githubusercontent.com/78lolo78/Projet7_Credit_Risk/main/input/application_train_sample.csv?token=GHSAT0AAAAAAB4ORQGCQWDPMSQHBATYXLVSY6EB2AQ'
+FILENAME_TEST = 'application_test.csv'
+#FILENAME_TEST = 'https://raw.githubusercontent.com/78lolo78/Projet7_Credit_Risk/main/input/application_test.csv?token=GHSAT0AAAAAAB4ORQGDU67M2NDNG2FUK6EGY6ECDEA'
+FILENAME_MODEL = 'optimized_model.sav'
+#FILENAME_MODEL = 'https://github.com/78lolo78/Projet7_Credit_Risk/blob/main/optimized_model.sav'
 
 #######################################################################################
 # Setting layout & navigation pane
